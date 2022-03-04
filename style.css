@@ -1,0 +1,95 @@
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); */
+    text-align: center;
+}
+hr{
+    width: 600px;
+
+}
+
+.count{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px 0px;
+}
+
+#errors{
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(179, 49, 2);
+    padding: 0px 4px;
+  
+}
+
+.sudoko{
+    display: flex;
+    justify-content: stretch;
+    flex-direction: row;
+    padding: 0px 180px;
+    margin-bottom: 20px;
+}
+
+#board{
+    width: 396px;
+    height: 396px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+   border: 2px solid  gray;
+
+}
+
+.tile{
+    width: 42px;
+    height: 42px;
+     border: 1px solid lightgray;
+
+     font-size: 20px;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#digits{
+    width: 50px;
+    height: 396px;
+
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number{
+    width: 38px;
+    height: 38px;
+    border: 1px solid black;
+    margin: 2px;
+
+     font-size: 20px;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+.number-selected{
+    background-color: gray;
+}
+
+.tile-start {
+    background-color: whitesmoke;
+}
+
+.horizontal-line {
+    border-bottom: 1px solid black;
+}
+
+.vertical-line {
+    border-right: 1px solid black;
+}
