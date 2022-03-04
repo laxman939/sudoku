@@ -1,2 +1,2 @@
 # sudoku
-Simple Sudoku Game
+Simple Sudoku Single Level Game
