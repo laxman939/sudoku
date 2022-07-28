@@ -1,2 +1,2 @@
-# `sudoku`
-Simple Sudoku Game
+# sudoku
+Simple Sudoku Single Level Game
