@@ -1,2 +1,2 @@
-# sudoku
+# `sudoku`
 Simple Sudoku Game
